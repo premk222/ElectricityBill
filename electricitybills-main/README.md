@@ -4,10 +4,10 @@
 
 ### dagshub 
 
-MLFLOW_TRACKING_URI = https://dagshub.com/minich-code/electricitybills.mlflow
+MLFLOW_TRACKING_URI = https://dagshub.com/prem/electricitybills.mlflow
 
 import dagshub
-dagshub.init(repo_owner='minich-code', repo_name='electricitybills', mlflow=True)
+dagshub.init(repo_owner='prem', repo_name='electricitybills', mlflow=True)
 
 import mlflow
 with mlflow.start_run():
